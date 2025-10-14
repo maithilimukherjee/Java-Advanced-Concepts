@@ -21,12 +21,21 @@ public class Box {
 
         System.out.println("Printing volume of the rectangle 10 x 5 x 2");
         box.setData(10, 5, 2);
-        System.out.println("Volume is: " + box.volume());
+        int volRec = box.volume();
+        System.out.println("Volume is: " + volRec);
 
         System.out.println("Printing the volume of the cube: 5 x 5 x 5");
         box.setData(5, 5, 5);
-        System.out.println("Volume is: " + box.volume());
+        int volCube = box.volume();
+        System.out.println("Volume is: "+volCube);
 
+        if (volRec > volCube) {
+            System.out.println("Volume of rectangle is greater than cube");
+        } else if (volRec < volCube) {
+            System.out.println("Volume of cube is greater than rectangle");
+        } else {
+            System.out.println("Both volumes are equal");
+        }
     }
 
 }
