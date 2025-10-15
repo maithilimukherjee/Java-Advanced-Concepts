@@ -14,6 +14,7 @@ class Rectangle extends TwoDShape
         dim2 = b;
     }
 
+    @Override
     double area()
     {
         return dim1 * dim2;
@@ -35,3 +36,5 @@ Output
  * Area of Rectangle 1: 50.0
 Area of Rectangle 2: 21.0
  */
+
+ 
