@@ -1,3 +1,4 @@
+package Package.pack1;
 import pack1.A;
 
 public class packDemo
