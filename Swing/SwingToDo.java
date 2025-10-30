@@ -34,3 +34,13 @@ public class SwingToDo {
         });
     }
 }
+
+/*
+ * This code creates a simple Swing GUI for a To-Do list application.
+ * It includes labels, text fields, a combo box for priority selection,
+ * a button to add tasks, a checkbox to mark tasks as completed,
+ * and a JTable to display the list of tasks in a structured format.
+ * The JTable is placed inside a JScrollPane to allow for scrolling
+ * when there are many tasks.
+ * Non functional layout, btw. 
+ */
