@@ -20,7 +20,7 @@ public class FormatEx {
             System.out.println("An error occurred: " + e.getMessage());
         }
     }
-}
+}v
 
 /*
  * Enter a string but it must be a number: 457
